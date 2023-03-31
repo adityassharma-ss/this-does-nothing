@@ -31,6 +31,11 @@ const MyList = () => {
 			Sorry, I don't know what to put here
 		</p>
 		</li>
+		<li style={{ margin: '20px 0', color: "#E68C46" }}><a href="https://github.com/adityassharma-ss/nimans">"niMans"</a>
+		<p>
+		Nimans is a music recommendation system that uses user input and facial recognition to recommend songs to users. The system is built using React, Express, MongoDB, and Python
+		</p>
+		</li>
 		<li style={{ margin: '20px 0', color: "#E68C26" }}><a href="https://github.com/adityassharma-ss/hackeducation">"HackEducation"</a>
 		<p>
 			An e-learning platform, consisting of resources & guidance to explore the world of Computer Science
@@ -53,9 +58,8 @@ const MyList = () => {
 }
 
 const Section1 = () => {
-	const text = "Stuffs I've made".split(" ");
-	const subText =
-		"".split(" ");
+	const text = "Personal & Organization Projects".split(" ");
+	const subText ="".split(" ");
 
 	return (
 		<DefaultSection>
